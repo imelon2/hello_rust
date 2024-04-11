@@ -1,0 +1,18 @@
+struct User {
+    name:String,
+    email:String,
+    active:bool
+}
+
+fn main() {
+    let mut user = User {
+        name:String::from("원혁"),
+        email:String::from("imelon279@gmail.com"),
+        active:true
+    };
+
+    user.email = String::from("imelon279@nanmail.net");
+
+    println!("이용자의 이름은 = {}",user.name);
+    println!("이용자의 이메일은 = {}",user.email);
+}

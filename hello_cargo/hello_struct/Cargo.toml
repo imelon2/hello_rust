@@ -1,5 +1,6 @@
+workspace = { members = ["enum_hello"] }
 [package]
-name = "hello_cargo"
+name = "hello_struct"
 version = "0.1.0"
 edition = "2021"
 
