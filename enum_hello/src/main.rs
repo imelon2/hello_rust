@@ -26,3 +26,7 @@ fn enum1() {
     println!("red == greed => {}",red == green);
     println!("red == greed => {}",red == Color::Red);
 }
+
+fn enum2() {
+    let m1 = MEss
+}
