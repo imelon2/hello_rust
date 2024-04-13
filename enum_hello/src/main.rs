@@ -28,5 +28,14 @@ fn enum1() {
 }
 
 fn enum2() {
-    let m1 = MEss
+    let m1 = Message::StartGame;
+    let m2 = Message::WInPoint { who: String::from("홍길동") };
+    let m3 = Message::ChangePlayerName(
+        String::from("길동")
+    );
+}
+
+fn enumOption() {
+    let some_number = Some(2);
+    let absent_number:Option<i32> = None;
 }

@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "hello_struct"
+name = "error_hello"
 version = "0.1.0"
